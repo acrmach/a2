@@ -1,0 +1,183 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='A Point of Sale (POS) system integrates both hardware and software components, enabling businesses to finalise transactions, track recurring sales data, oversee inventory and employee, and analyse sales performance.')
+        meta(name='author', content='Acreboard')
+
+        title billcounter - Point Of Sales (POS) System
+
+        // Favicon
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        include includes/css.pug
+
+    // Body
+    body.d-flex.flex-column.h-100
+
+        main.flex-shrink-0
+
+            // Navigation
+            include includes/navbar.pug
+
+        header.bg-dark.py-5
+            .container.px-5
+                .row.gx-5.justify-content-center
+                    .col-lg-6
+                        .text-center.my-5
+                            h1.display-5.fw-bolder.text-white.mb-2 billcounter: The Point Of Sales (POS) System
+                            p.lead.text-white-50.mb-4 Inventory, Bills, and KPIs. Simplify your retail with POS software that streamlines and manages all your sales data. 
+                            .d-grid.gap-3.d-sm-flex.justify-content-sm-center
+                                a.btn.btn-primary.btn-lg.px-4.me-sm-3(href='#possystem') Get Started
+                                a.btn.btn-outline-light.btn-lg.px-4(href='#contact') Contact Us
+
+        // Page Content
+        section#possystem.bg-light
+            .container.px-4
+                .row.gx-4.justify-content-center
+                    .col-lg-8
+                        h2 Key Takeaway
+                        p.lead
+                            | A Point of Sale (POS) system integrates both hardware and software components, enabling businesses to finalise transactions, track recurring sales data, oversee inventory and employee, and analyse sales performance.
+
+        section.bg-light
+            .container.px-4
+                .row.gx-4.justify-content-center
+                    .col-lg-8
+                        h2 What is the Point of Sales (POS) System?
+                        p.lead
+                            | A Point of Sale (POS) system helps your business to accept customer payments and monitor sales, including trends. The POS setup varies based on whether you operate online,have an offline brick-and-mortar store, or both. It offers you advanced capabilities such as inventory management, sales performance tracking, staff management, customer contact information collection, and various other functionalities.
+                        p.lead
+                            | Note: “billcounter” is a POS software that helps you manage inventory, monitor sales and generate bills. The product doesn't accept or process payments.
+
+        section.bg-light
+            .container.px-4
+                .row.gx-4.justify-content-center
+                    .col-lg-8
+                        h2 Why is the point of sales (POS) system important?
+                        p.lead
+                            | A Point of Sale (POS) system is a transaction processing device used mostly by retail customers. The system comprises both hardware and software designed to facilitate payment acceptance and in-person sales for your business. Additionally, it efficiently transfers funds to your bank account following each transaction.
+                        p.lead
+                            | It is a physical computing device often found in a physical store or a checkout point in an online store. The software accompanying POS devices is a sophisticated system constituting features that enable retailers, suppliers, and distributors (wholesalers) to monitor inventory and purchasing patterns, ensure accurate pricing, and gather valuable marketing data.
+                        p.lead
+                            | Usually, a point-of-sale system refers to the cash register in physical stores. Today, modern POS systems are fully digital, enabling you to process customer transactions from any location. All that's required is a POS software and a computing device, such as a tablet or desktop.
+
+        section.bg-light
+            .container.px-4
+                .row.gx-4.justify-content-center
+                    .col-lg-8
+                        h2 What are the benefits of point of sales systems (POS)?
+                        p.lead
+                            | POS implementation helped organisations boost total sales by up to 200%.
+                            br
+                            a(href='https://www.softwareadvice.com/resources/must-have-retail-pos-features/') Learn more
+                           
+                        h2 Easy Scalability
+                        p.lead
+                            | For both small and midsize businesses, investing in a comprehensive POS system can enhance the management of your gradually evolving needs as your business grows. Numerous POS systems seamlessly accommodate both hundreds and thousands of sales. It offers you the flexibility to use the same POS system year after year without hurdles.
+                        h2 Inventory management
+                        p.lead
+                            | Efficient and effective management of physical inventory and resources is vital for ensuring seamless day-to-day business operations. A POS system automates the updating of inventory systems each time a customer places an order online or purchase from a shop. This real-time tracking facilitates anticipating stock depletion for popular items and aids in budget control by enabling timely purchases of inventory or materials as needed.
+                        h2 Payment system
+                        p.lead
+                            | Customers are opting for diverse payment methods, and it's likely that without incorporating the latest payment options, your business might be missing potential opportunities. POS systems commonly come equipped with features such as UPI and QR-based payment systems, including other contactless payment alternatives.
+                        h2 Employee management
+                        p.lead
+                            | If you manage a retail outlet, it's likely that you have numerous hourly workers consistently clocking in and out. POS systems provide simplified time tracking, efficient scheduling, and comprehensive reporting on employee activities. This functionality allows you to generate reports on employee schedules. 
+                        h2 Customer management
+                        p.lead
+                            | The POS systems come equipped with fundamental customer management tools, enabling the recording of customer information and the creation of customer profiles for marketing purposes.
+
+        section.bg-light
+            .container.px-4
+                .row.gx-4.justify-content-center
+                    .col-lg-8
+                        h2 Research and reports
+                        p.lead
+                            | Below are some statistics that emphasise the significance of POS:
+                        h2 Entrepreneur Magazine
+                        p.lead
+                            | According to Intuit Market Research, retailers generating $300,000 in revenue have the potential to reduce costs by nearly 10 percent, amounting to $30,000 annually.
+                        p.lead
+                            | Inaccurate inventory poses a significant challenge for many retailers, leading to potentially painful losses if not addressed promptly.
+                        p.lead
+                            | Maintaining accurate inventory records proves to be an effective solution. By keeping thorough records of your stock levels and their locations, you mitigate the risks associated with misplaced or stolen inventory, allowing for quick and informed action.                           
+                            br
+                            a(href='https://www.entrepreneur.com/science-technology/point-of-sale-system-basics-for-retailers-entrepreneurcom/77960') Learn more
+
+        section
+            .container.px-4
+                .row.gx-4.justify-content-center
+                    .col-lg-8
+                        h2 How does a POS system work?
+                        p.lead
+                            | Fundamentally, a POS system performs essential functions by computing the total cost of selected items, handling the payment, and updating inventory levels to reflect the sale. The typical POS system workflow includes:
+                        h2 Step 01: A retail customer or procurement manager selects a product for purchase.
+                        p.lead 
+                            | While shoppers explore a store's offerings, the store staff can access pricing and inventory information through the POS system. When the shopper is prepared to make a purchase, the staff utilises a barcode scanner or unique product identification number to add selected products to their cart.
+                        h2 Step 02: The point of sales POS system calculates the total price.
+                        p.lead 
+                            | After all items have been added to the shopper's cart, the POS system computes the total cost, incorporating any applicable sales tax, and subsequently adjusts the inventory count to account for the items sold. At this stage, store staff also have the capability to apply discounts or promo codes.
+                        h2 Step 03: The retail customer makes the payment via online or offline medium.
+                        p.lead 
+                            | To finalise their transaction, customers can utilise various payment options such as credit cards, debit cards, tap cards, loyalty points, gift cards, cash, QR code, or digital wallets. Additionally, they have the option to perform a split payment, combining any combination of the mentioned payment methods to cover their purchase.
+                        h2 Step 4: The point-of-sale transaction is completed and the purchase receipt is shared.
+                        p.lead 
+                            | Upon successful payment processing, the sale is officially completed. Subsequently, a receipt detailing the transaction is either printed or emailed to the customer, and the purchased products are handed over to the customer.
+
+        section.bg-light
+            .container.px-4
+                .row.gx-4.justify-content-center
+                    .col-lg-8
+                        h2 Point of sales (POS) system for Suppliers, Distributors (Wholesaler) and Retailers
+                        p.lead
+                            | An On-premise POS System necessitates installation on a local system and server. Accessible only locally, organisations opt for on-premise systems due to their emphasis on security and control.
+                        p.lead
+                            | These systems operate independently of internet connectivity, ensuring continuous functionality even during internet outages. Additionally, they incur one-time training and implementation costs along with recurring maintenance charges.
+
+        section.bg-light
+            .container.px-4
+                .row.gx-4.justify-content-center
+                    .col-lg-8
+                        h2 A “must have” point of sales (POS) system for your business
+                        p.lead
+                            | The retail ecosystem is evolving at an accelerated pace. It's crucial not to be left behind with manual and outdated business systems. It's time to recognize the significance of POS systems and consider an upgrade to your existing sales operations.
+
+        // Call to action
+        section.py-5.bg-light
+            .container.px-5.my-5
+                h2.display-4.fw-bolder.mb-4 Let's build together a better future
+                a.btn.btn-lg.btn-primary(href='mailto:acreboard@outlook.com') Contact us
+
+        // Contact cards
+        section#contact.py-5
+            .container.px-5                    
+                .row.gx-5.row-cols-2.row-cols-lg-4.py-5
+                    .col
+                        .feature.bg-primary.bg-gradient.text-white.rounded-3.mb-3
+                            i.bi.bi-chat-dots
+                        .h5.mb-2 Email us
+                        p.text-muted.mb-0 Email us at acreboard@outlook.com.
+                    .col
+                        .feature.bg-primary.bg-gradient.text-white.rounded-3.mb-3
+                            i.bi.bi-telephone
+                        .h5 Call us
+                        p.text-muted.mb-0 Call us at (+91) 9152965250.
+                    .col
+                        .feature.bg-primary.bg-gradient.text-white.rounded-3.mb-3
+                            i.bi.bi-people
+                        .h5 Ask the community
+                        p.text-muted.mb-0 Explore our community forums.
+                    .col
+                        .feature.bg-primary.bg-gradient.text-white.rounded-3.mb-3
+                            i.bi.bi-question-circle
+                        .h5 Support center
+                        p.text-muted.mb-0 Browse FAQ's and support articles.
+
+        // Footer
+        include includes/footer.pug
+
+        include includes/scripts.pug
